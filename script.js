@@ -11,6 +11,7 @@ $(document).ready(function() {
             $('.btn-up').addClass('rise-up');
         } else {
             $('.nav-menu').removeClass('custom-navbar')
+            $('.logo').removeClass('logo-scroll');
             $('.btn-up').removeClass('rise-up');
         }
     });
