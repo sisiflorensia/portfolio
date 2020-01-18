@@ -5,13 +5,19 @@ $(document).ready(function() {
 
     $(window).scroll(function() {
         let position = $(this).scrollTop();
-        if (position >= 100) {
-            $('.nav-menu').addClass('custom-navbar')
-            $('.logo').addClass('logo-scroll')
+        if (position >= 90) {
+            $('.nav-menu').addClass('custom-navbar');
+            $('.logo').addClass('logo-scroll');
+            $('.btn-up').addClass('rise-up');
         } else {
             $('.nav-menu').removeClass('custom-navbar')
-            $('.logo').removeClass('logo-scroll')
+            $('.btn-up').removeClass('rise-up');
         }
+    });
+
+    $('.btn-up').click(function() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     });
 
     $('.gallery-list-item').click(function() {
