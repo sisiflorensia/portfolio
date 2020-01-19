@@ -31,11 +31,11 @@
       <div class="line3"></div>
       </button>
       <div class="collapse navbar-collapse justify-content-end mr-4" id="mynavbar">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav pl-2 pb-2">
           <li class="nav-item"><a class="nav-link m-2 menu-item nav-active" href="./">Home</a></li>
           <li class="nav-item"><a class="nav-link m-2 menu-item" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link m-2 menu-item" href="#projects">Portfolio</a></li>
-          <li class="nav-item"><a class="nav-link m-2 menu-item" href="#faq">Resources</a></li>
+          <li class="nav-item"><a class="nav-link m-2 menu-item" href="#resources">Resources</a></li>
           <li class="nav-item"><a class="nav-link m-2 menu-item" href="#contact">Contact</a></li>
       </ul>
       </div>
@@ -50,19 +50,23 @@
         <div class="col-12 px-3 py-3 mt-4 mb-5">
           <ul class="list-inline px-3 text-secondary text-left pb-2">
             <li class="list-inline-item gallery-list-item px-0 mx-0 gallery-item-active" data-filter="all">Selected Works<span class="separator px-2 mx-2">|</span></li>
-            <li class="list-inline-item gallery-list-item px-0 mx-0"data-filter="customers">Web App<span class="separator px-2 mx-2">|</span></li>
-            <li class="list-inline-item gallery-list-item px-0 mx-0" data-filter="team">Portfolio<span class="separator px-2 mx-2">|</span></li>
-            <li class="list-inline-item gallery-list-item px-0 mx-0" data-filter="team">e-Commerce<span class="separator px-2 mx-2">|</span></li>
-            <li class="list-inline-item gallery-list-item px-0 mx-0"data-filter="customers">Games</li>
+            <li class="list-inline-item gallery-list-item px-0 mx-0" data-filter="webapp">Web App<span class="separator px-2 mx-2">|</span></li>
+            <li class="list-inline-item gallery-list-item px-0 mx-0" data-filter="portfolio">Portfolio<span class="separator px-2 mx-2">|</span></li>
+            <li class="list-inline-item gallery-list-item px-0 mx-0" data-filter="eshop">e-Commerce<span class="separator px-2 mx-2">|</span></li>
+            <li class="list-inline-item gallery-list-item px-0 mx-0" data-filter="games">Games</li>
             <span class="separator px-2 mx-2">|</span></li>
-            <li class="list-inline-item gallery-list-item px-0 mx-0" data-filter="food">Business Page</li>
+            <li class="list-inline-item gallery-list-item px-0 mx-0" data-filter="page">Business Page</li>
           </ul>
           <div class="container-fluid justify-content-between">
             <div class="row text-left">
-              <div class="col-lg-4 col-md-6 col-sm-12 pt-2 pb-4 filter food">
-                <img class="img-fluid" src="images/gallery/img1.jpg" alt="">
+              <div class="col-lg-4 col-md-6 col-sm-12 pt-2 pb-4 filter games">
+                <div class="image-box">
+                  <a href="https://sisiflorensia.github.io/1000pages_movement/01_roll_the_drum/drum_kit.html">
+                    <img class="img-fluid" src="images/gallery/img1.png" alt="Drum Kit interactive mini games">
+                  </a>
+                </div>
                 <div class="description mt-3 mb-4">
-                  <span class="title">Salutaire</span>
+                  <a href="https://sisiflorensia.github.io/1000pages_movement/01_roll_the_drum/drum_kit.html"><span class="title">Drum Kit</span></a>
                   <span class="category">
                     <i class="fas fa-check mr-2"></i>
                     <span class="mx-2">Mobile</span>
@@ -71,10 +75,14 @@
                   </span>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 pt-2 pb-4 filter food">
-                <img class="img-fluid"  src="images/gallery/img2.jpg" alt="">
+              <div class="col-lg-4 col-md-6 col-sm-12 pt-2 pb-4 filter games">
+                <div class="image-box">
+                  <a href="https://sisiflorensia.github.io/one_page_javascript_projects/pig_game/pig_game.html">
+                    <img class="img-fluid" src="images/gallery/img2.png" alt="Roll The Dice desktop mini games">
+                  </a>
+                </div>
                 <div class="description mt-3 mb-4">
-                  <span class="title">Roll The Dice</span>
+                  <a href="https://sisiflorensia.github.io/one_page_javascript_projects/pig_game/pig_game.html"><span class="title">Roll The Dice</span></a>
                   <span class="category">
                       <i class="fas fa-check mr-2"></i>
                       <span class="mx-2">Tablet</span>
@@ -82,20 +90,15 @@
                     </span>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 pt-2 pb-4 filter customers">
-                <img class="img-fluid"  src="images/gallery/img3.jpg" alt="">
-                <div class="description mt-3 mb-4">
-                  <span class="title">CSV Cleaner</span>
-                  <span class="category">
-                      <i class="fas fa-check mr-2"></i>
-                      <span class="mx-2">Desktop</span>
-                    </span>
+              
+              <div class="col-lg-4 col-md-6 col-sm-12 pt-2 pb-4 filter webapp">
+                <div class="image-box">
+                  <a href="http://csv-cleaner3000.herokuapp.com/">
+                    <img class="img-fluid" src="images/gallery/img3.png" alt="CSV Cleaner web application">
+                  </a>
                 </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 pt-2 pb-4 filter team">
-                <img class="img-fluid"  src="images/gallery/img4.jpg" alt="">
                 <div class="description mt-3 mb-4">
-                  <span class="title">Salutaire</span>
+                  <a href="http://csv-cleaner3000.herokuapp.com/"><span class="title">CSV Cleaner</span></a>
                   <span class="category">
                       <i class="fas fa-check mr-2"></i>
                       <span class="mx-2">Mobile</span>
@@ -104,10 +107,30 @@
                     </span>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 pt-2 pb-4 filter food">
-                <img class="img-fluid"  src="images/gallery/img5.jpg" alt="">
+              <div class="col-lg-4 col-md-6 col-sm-12 pt-2 pb-4 filter page">
+                <div class="image-box">
+                  <a href="https://sisiflorensia.github.io/one_page_bootstrap_projects/02_vanila_bs_css_jquery/salutaire.html">
+                    <img class="img-fluid" src="images/gallery/img4.png" alt="Salutaire healthy mealprep delivery">
+                  </a>
+                </div>
                 <div class="description mt-3 mb-4">
-                  <span class="title">Salutaire</span>
+                  <a href="https://sisiflorensia.github.io/one_page_bootstrap_projects/02_vanila_bs_css_jquery/salutaire.html"><span class="title">Salutaire</span></a>
+                  <span class="category">
+                    <i class="fas fa-check mr-2"></i>
+                    <span class="mx-2">Mobile</span>
+                    <span class="mx-2">Tablet</span>
+                    <span class="mx-2">Desktop</span>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 pt-2 pb-4 filter portfolio">
+                <div class="image-box">
+                  <a href="https://sisiflorensia.github.io/1000pages_movement">
+                    <img class="img-fluid" src="images/gallery/img5.png" alt="1000 pages daily coding movement">
+                  </a>
+                </div>
+                <div class="description mt-3 mb-4">
+                  <a href="https://sisiflorensia.github.io/1000pages_movement"><span class="title">1000 Pages</span></a>
                   <span class="category">
                       <i class="fas fa-check mr-2"></i>
                       <span class="mx-2">Mobile</span>
@@ -116,51 +139,19 @@
                     </span>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 pt-2 pb-4 filter team">
-                <img class="img-fluid"  src="images/gallery/img6.jpg" alt="">
-                <div class="description mt-3 mb-4">
-                  <span class="title">Salutaire</span>
-                  <span class="category">
-                      <i class="fas fa-check mr-2"></i>
-                      <span class="mx-2">Mobile</span>
-                      <span class="mx-2">Tablet</span>
-                      <span class="mx-2">Desktop</span>
-                    </span>
+              <div class="col-lg-4 col-md-6 col-sm-12 pt-2 pb-4 filter eshop">
+                <div class="image-box">
+                  <a href="https://sisiflorensia.github.io/one_page_bootstrap_projects/03_vanila_bs_css_only/dashboard.html">
+                    <img class="img-fluid"  src="images/gallery/img6.png" alt="Custom Admin Dashboard">
+                  </a>
                 </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 pt-2 pb-4 filter team">
-                <img class="img-fluid"  src="images/gallery/img7.jpg" alt="">
                 <div class="description mt-3 mb-4">
-                  <span class="title">Salutaire</span>
+                  <a href="https://sisiflorensia.github.io/one_page_bootstrap_projects/03_vanila_bs_css_only/dashboard.html"><span class="title">Couture Dashboard</span></a>
                   <span class="category">
-                      <i class="fas fa-check mr-2"></i>
-                      <span class="mx-2">Mobile</span>
-                      <span class="mx-2">Tablet</span>
-                      <span class="mx-2">Desktop</span>
-                    </span>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 pt-2 pb-4 filter team">
-                <img class="img-fluid"  src="images/gallery/img8.jpg" alt="">
-                <div class="description mt-3 mb-4">
-                  <span class="title">Roll The Dice</span>
-                  <span class="category">
-                      <i class="fas fa-check mr-2"></i>
-                      <span class="mx-2">Tablet</span>
-                      <span class="mx-2">Desktop</span>
-                    </span>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 pt-2 pb-4 filter customers">
-                <img class="img-fluid"  src="images/gallery/img9.jpg" alt="">
-                <div class="description mt-3 mb-4">
-                  <span class="title">Salutaire</span>
-                  <span class="category">
-                      <i class="fas fa-check mr-2"></i>
-                      <span class="mx-2">Mobile</span>
-                      <span class="mx-2">Tablet</span>
-                      <span class="mx-2">Desktop</span>
-                    </span>
+                    <i class="fas fa-check mr-2"></i>
+                    <span class="mx-2">Tablet</span>
+                    <span class="mx-2">Desktop</span>
+                  </span>
                 </div>
               </div>
             </div>

@@ -23,17 +23,17 @@ header {
 .logo {
     font-family: 'Muli', Helvetica, Arial, sans-serif;
     font-weight: bolder;
-    font-size: 48px;
+    font-size: 51px;
     letter-spacing: .1em;
     text-decoration: none;
     color: #17a2b8;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     transition: all 0.3s;
 }
 
 .logo-scroll {
     font-size: 42px;
-    transition: all 0.3s;
+    transition: all 0.3s ease;
 }
 
 .logo:hover {
@@ -53,7 +53,7 @@ header {
 
 /* banner  */
 .banner {
-    margin-top: 14%;
+    margin-top: 15%;
 }
 
 /* -------------------------------------------------------------------- */
@@ -81,7 +81,7 @@ header {
     padding: 4px 12px !important;
     margin: 8px 4px !important;
     opacity: 0.8;
-    transition: all .3s;
+    transition: all .3s ease;
 }
 
 .menu-item:hover {
@@ -144,7 +144,7 @@ header {
     box-shadow: 1px 3px 5px #80808028;
     opacity: 0.8;
     /* padding: 2px; */
-    transition: all 0.7s;
+    transition: all 0.7s ease;
 }
 
 .btn-up:hover {
@@ -165,7 +165,7 @@ header {
     cursor: pointer;
     user-select: none;
     opacity: 0.8;
-    transition: all 0.3s;
+    transition: all 0.3s ease;
 }
 
 .gallery-list-item:hover {
@@ -179,13 +179,26 @@ header {
 }
 
 .filter {
-    opacity: .85;
-    transition: all .3s;
+    position: relative;
+    overflow: hidden;
 }
 
-.filter:hover {
-    cursor: pointer;
-    opacity: 1;
+.image-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-box img {
+    max-width: 100%;
+    transition: all 0.3s ease;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.image-box:hover img {
+    transform: scale(1.1);
 }
 
 .title {
@@ -194,12 +207,17 @@ header {
     font-size: 24px;
     color: #111111;
     letter-spacing: 0.05em;
-    transition: all 0.3s;
+    transition: all 0.3s ease;
 }
 
 .title:hover {
+    text-decoration-line: none;
     transform: translateY(-2px);
     cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 .category {
@@ -223,13 +241,13 @@ header {
       font-size: 42px;
     }
     .banner {
-        margin-top: 36%;
+        margin-top: 40%;
     }
     .subtitle {
         color: #111111;
         letter-spacing: 0.02em;
-        font-size: 21px;
-        line-height: 24px;
+        font-size: 24px;
+        line-height: 28px;
         font-weight: normal;
     }
 }
@@ -303,7 +321,7 @@ header {
 /* Footer */
 
 .socmed {
-    transition: all 0.3s;
+    transition: all 0.3s ease;
 }
 
 .socmed:hover {

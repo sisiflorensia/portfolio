@@ -5,7 +5,7 @@ $(document).ready(function() {
 
     $(window).scroll(function() {
         let position = $(this).scrollTop();
-        if (position >= 90) {
+        if (position >= 80) {
             $('.nav-menu').addClass('custom-navbar');
             $('.logo').addClass('logo-scroll');
             $('.btn-up').addClass('rise-up');
