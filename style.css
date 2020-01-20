@@ -3,13 +3,14 @@ html {
 }
 
 body {
-    font-family: 'Muli', sans-serif;
+    font-family: 'Roboto', 'Muli', sans-serif;
     line-height: 1.8;
+    letter-spacing: 1px;
     color: #808080;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Muli', Helvetica, sans-serif;
-    /* letter-spacing: -0.02em; */
+    letter-spacing: 2px;
 }
 /* --------------------------------------------- */
 
@@ -27,7 +28,6 @@ header {
     letter-spacing: .1em;
     text-decoration: none;
     color: #17a2b8;
-    /* opacity: 0.8; */
     transition: all 0.3s;
 }
 
@@ -44,7 +44,6 @@ header {
 
 .subtitle {
     color: #111111;
-    letter-spacing: 0.02em;
     font-size: 30px;
     line-height: 40px;
     font-weight: normal;
@@ -75,6 +74,7 @@ header {
 }
 
 .menu-item {
+    font-family: 'Muli', Helvetica, Arial, sans-serif;
     font-size: 17px;
     letter-spacing: 1px;
     color: #808080;
@@ -144,12 +144,13 @@ header {
     box-shadow: 1px 3px 5px #80808028;
     opacity: 0.8;
     /* padding: 2px; */
-    transition: all 0.7s ease;
+    transition: all 0.3s ease;
 }
 
 .btn-up:hover {
     opacity: .9;
     border: solid 1px #17a2b8;
+    transform: translateY(-2px);
 }
 
 /* ------------------------------------------------------------------------- */
