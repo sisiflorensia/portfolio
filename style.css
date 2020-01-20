@@ -27,7 +27,8 @@ header {
     font-size: 51px;
     letter-spacing: .1em;
     text-decoration: none;
-    color: #17a2b8;
+    color: #0FA3B1;
+    opacity: .8;
     transition: all 0.3s;
 }
 
@@ -37,8 +38,8 @@ header {
 }
 
 .logo:hover {
-    color: #17a2b8;
-    /* opacity: 1; */
+    color: #0FA3B1;
+    opacity: .8;
     transform: translateY(-2px);
 }
 
@@ -61,7 +62,7 @@ header {
 .nav-menu {
     padding: 1.25em 2.5em;
     color: #808080;
-    transition: all .3s;
+    transition: all .7s;
 }
 
 .nav-menu > i {
@@ -139,7 +140,7 @@ header {
     height: 48px;
     border-radius: 50% ;
     /* opacity: 0.1; */
-    color: #17a2b8;
+    color: #0FA3B1;
     font-size: 24px;
     box-shadow: 1px 3px 5px #80808028;
     opacity: 0.8;
@@ -149,7 +150,7 @@ header {
 
 .btn-up:hover {
     opacity: .9;
-    border: solid 1px #17a2b8;
+    border: solid 1px #0FA3B1;
     transform: translateY(-2px);
 }
 
@@ -165,18 +166,18 @@ header {
 .gallery-list-item {
     cursor: pointer;
     user-select: none;
-    opacity: 0.8;
+    opacity: .8;
     transition: all 0.3s ease;
 }
 
 .gallery-list-item:hover {
-    opacity: 1;    
+    opacity: 1;
+    /* color: #BF9677;    */
 }
 
 .gallery-item-active {
-    color: #17a2b8;
+    color: #BF9677;
     font-weight: 300;
-    /* opacity: 1; */
 }
 
 .filter {
@@ -268,8 +269,8 @@ a:hover {
   -webkit-transform: rotate(225deg);
   border-left: none;
   border-top: none;
-  border-right: 2px #17a2b8 solid;
-  border-bottom: 2px #17a2b8 solid;
+  border-right: 2px #0FA3B1 solid;
+  border-bottom: 2px #0FA3B1 solid;
 } 
 .arrow:before {
   content: '';
@@ -279,8 +280,8 @@ a:hover {
   margin: -10px 0 0 -10px;
   border-left: none;
   border-top: none;
-  border-right: 1px #17a2b8 solid;
-  border-bottom: 1px #17a2b8 solid;
+  border-right: 1px #0FA3B1 solid;
+  border-bottom: 1px #0FA3B1 solid;
   animation-duration: 1.2s;
   animation-iteration-count: infinite;
   animation-name: arrow;
@@ -320,6 +321,15 @@ a:hover {
 /* ------------------------------------------------ */
 
 /* Footer */
+.footer {
+    /* background: linear-gradient(180deg, rgba(164, 197, 204,.2) 0%, rgba(164, 197, 204,1) 100%); */
+    background-color: rgba(164, 197, 204,.8);
+}
+
+.footer-title {
+    color: #F2F6D0;
+    font-size: 42px;
+}
 
 .socmed {
     transition: all 0.3s ease;
@@ -327,4 +337,58 @@ a:hover {
 
 .socmed:hover {
     transform: translateY(-2px)
+}
+
+/* ------------------------------------------------------------- */
+
+/* About page  */
+.name {
+    font-size: 42px;
+    /* color: #111111; */
+    color: #BF9677;
+    /* background: linear-gradient(180deg, rgba(255,255,255,0) 65%, rgb(164, 197, 204,.3) 65%); */
+    /* display: inline; */
+}
+
+.main-pic {
+    border-radius: 8px ;
+}
+
+.button {
+    display: inline-block;
+    position: relative;
+    height: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    font-family: 'Muli';
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0 32px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    border: none;
+    margin: 24px 0;
+    transition: all 0.3s ease;
+}
+.button:hover {
+    cursor: pointer;
+}
+
+.btn-scndary {
+    background: #f8f9fa;
+    color: #111111;
+}
+
+.btn-cta {
+    background: #a4c5cc;
+}
+
+.btn-scndary:hover {
+    background: #2b2b2b;
+    color: #ffffff;
+}
+
+.btn-cta:hover {
+    background: #2b2b2b;
+    color: #ffffff;
 }
