@@ -7,7 +7,9 @@ body {
     line-height: 1.8;
     letter-spacing: 1px;
     color: #808080;
+    min-height: 100vh;
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Muli', Helvetica, sans-serif;
     letter-spacing: 2px;
@@ -56,6 +58,9 @@ header {
     margin-top: 15%;
 }
 
+.screen-fit {
+    min-height: 70vh;
+}
 /* -------------------------------------------------------------------- */
 
 /* navbar */

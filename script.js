@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    console.log("im here")
     $('.nav-button').click(function() {
         $('.nav-button').toggleClass('change');
     });
