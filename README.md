@@ -1,10 +1,9 @@
-# Portfolio
+# [Portfolio](http://www.lalunatech.io/)
 
 This is my personal page containing:
-- [Portfolio](http://www.lalunatech.io/) featuring my current best works to date
+- Portfolio featuring my current best works to date
 - Resume with details of my work experience, projects & education
-- Front-end resources with codes
-- Study case and walkthrough tutorials
 - Channels to contact me
+- List of my publications, study case and walkthrough tutorials
 <br>
 Please visit relevant pages to see details of contributors for web applications that were built collaboratively.
