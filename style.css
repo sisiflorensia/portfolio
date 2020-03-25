@@ -55,11 +55,11 @@ header {
 
 /* banner  */
 .banner {
-    margin-top: 15%;
+    margin-top: 12%;
 }
 
 .screen-fit {
-    min-height: 70vh;
+    min-height: calc(70vh - 275px);
 }
 /* -------------------------------------------------------------------- */
 
@@ -403,4 +403,19 @@ a:hover {
   font-family: 'Muli', Helvetica, Arial, sans-serif;
   letter-spacing: .1em;
   color: #a4c5cc;
+}
+
+.highlight { 
+    color: #BF9677;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, rgba(15, 163, 177, .1) 65%);
+    display: inline;
+    text-decoration: none;
+    transition: all 0.7s;
+    /* margin: auto; */
+}
+.highlight:hover {
+    color: #BF9677;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, rgba(15, 163, 177, .2) 65%);
+    display: inline;
+    text-decoration: none;
 }
