@@ -55,11 +55,11 @@ header {
 
 /* banner  */
 .banner {
-    margin-top: 12%;
+    margin-top: 15%;
 }
 
 .screen-fit {
-    min-height: calc(70vh - 275px);
+    min-height: 70vh;
 }
 /* -------------------------------------------------------------------- */
 
